@@ -42,7 +42,7 @@ _Feel free to contact me at elbelmonti@gmail.com_
 Elrey_Belmonti ElreyB https://github.com/ElreyB code doc design
 Contributors END -->
 <!-- Contributors table START -->
-| <img src="https://avatars.githubusercontent.com/ElreyB?s=100" width="100" alt="Elrey Belmonti" /><br /><sub>Elrey Belmonti</sub>](https://github.com/ElreyB)<br />[💻](https://github.com/ElreyB/mario-pizza/commits?author=ElreyB) [📖](https://github.com/ElreyB/mario-pizza/commits?author=ElreyB) 🎨 |
+| <img src="https://avatars.githubusercontent.com/ElreyB?s=100" width="100" alt="Elrey Belmonti" /><br />[<sub>Elrey Belmonti</sub>](https://github.com/ElreyB)<br />[💻](https://github.com/ElreyB/mario-pizza/commits?author=ElreyB) [📖](https://github.com/ElreyB/mario-pizza/commits?author=ElreyB) 🎨 |
 | :---: |
 <!-- Contributors table END -->
 This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification.
