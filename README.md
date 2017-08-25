@@ -13,8 +13,7 @@ _This page return a receipt based off the options you pick._
 |---|---|---|
 |Allow the user to choose toppings and size for the pizza they'd like to order|  Allow the user to choose toppings and size for the pizza they'd like to order | "HI, Elrey. Your large peperoni olives and extra cheese pizza will be ther in 30mins. Thank you!(or something similar)  |
 | Create a pizza object constructor with properties for toppings and size. |  Large: pepperoni, extra cheese, olives |  pizza.size = Large; pizza.toppings = [pepperoni, extra cheese, olives] |
-|Create a prototype method for the cost of a pizza depending on the selections chosen. Use your own formula for this.
-   |  small pizza with ["redOnions", "mushrooms", "garlic", "pepperoni", "salami", "goat", "mozzarella"] |  $10.00 |
+| Create a prototype method for the cost of a pizza depending on the selections chosen. Use your own formula for this. |  small pizza with ["redOnions", "mushrooms", "garlic", "pepperoni", "salami", "goat", "mozzarella"] |  $10.00 |
 
 ## Setup/Installation Requirements
 
