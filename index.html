@@ -12,12 +12,12 @@
       <div class="page-header">
 
       </div>
-      <form id="order-form">
-        <div class="form-group name">
-          <input type="text" class="form-control" placeholder="Full Name">
+      <form id="order-form" class="text-back-color">
+        <div class="form-group nameOptions">
+          <input type="text" class="form-control name" placeholder="Full Name">
         </div>
-        <div class="form-group size">
-          <select class="form-control">
+        <div class="form-group sizeOptions">
+          <select class="form-control size">
             <option>Pizza Size</option>
             <option>Small</option>
             <option>Medium</option>
@@ -87,10 +87,11 @@
             </div>
           </div>
         </div>
-        <button type="submit" class="btn">🍕 🍕 🍕 Place Order 🍕 🍕 🍕</button>
+        <button type="submit" class="btn btn-outline-dark center-block">🍕 🍕 🍕 Place Order 🍕 🍕 🍕</button>
       </form>
-      <div class="panel panel-default">
-        <div class="paenl-heading"><h3>Hello, <span id="costumer"></span>. Here is your order:</h3>
+      <div class="panel panel-default hide text-back-color">
+        <div class="paenl-heading text-center"><h3>Hello, <span id="costumer"></span></h3>
+        <h4>Here is your order:</h4>
         </div>
         <div class="panel-body">
           <h4>Size: <span id="orderSize"></span> Pizza</h4><br>
@@ -100,7 +101,11 @@
           </ul><br>
           <h4>Total: <span id="orderTotal"></span></h4>
         </div>
-        <div class="panel-footer"><h4>Thank You and Enjoy!!!</h4></div>
+        <div class="panel-footer text-back-color text-center"><h4>Thank You and Enjoy!!!</h4></div>
+        <div class="btn-group">
+          <button type="button" class="btn btn-outline-dark center-block return1">Update Order</button>
+          <button type="button" class="btn btn-outline-dark center-block return2">New Order</button>
+        </div>
       </div>
     </div>
   </body>

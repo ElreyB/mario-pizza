@@ -35,12 +35,22 @@ Pizza.prototype.totalCost = function(){
   return `$${this.toppingsCost() + this.sizeCost()}.00`
 }
 
+function restOrder() {
+  $("span#costumer").empty();
+  $("span#orderSize").empty();
+  $("ul#orderToppings").empty();
+  $("span#orderTotal").empty();
+};
+
 
 // User Interface Logic
 
 $(document).ready(function(){
   $("form#order-form").submit(function(event){
     event.preventDefault();
+    $(".panel").removeClass("hide");
+    $("#order-form").addClass("hide");
+
     var nameInput = $("input.name").val();
     var sizeInput = $("select.size").val();
     var toppingsInput = [];
@@ -54,13 +64,22 @@ $(document).ready(function(){
     newCostumer.order.push(newPizza);
 
     $("span#costumer").text(newCostumer.name);
+    console.log(newCostumer.name);
     $("span#orderSize").text(newCostumer.order[0].size);
     newCostumer.order[0].toppings.forEach(function(topping){
       $("ul#orderToppings").append(`<li>${topping}</li>`);
     });
     $("span#orderTotal").text(newCostumer.order[0].totalCost());
 
+    $(".return1").click(function(){
+      $("#order-form").removeClass("hide");
+      $(".panel").addClass("hide");
+      restOrder();
+    });
 
+    $(".return2").click(function(){
+      window.location.reload(false);
+    });
 
 
 

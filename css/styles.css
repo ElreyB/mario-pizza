@@ -1,10 +1,10 @@
-.name {
+.nameOptions {
   width: 40%;
   margin-right: 20px;
   display: inline-block;
 }
 
-.size{
+.sizeOptions{
   width: 40%;
   display: inline-block;
   margin-left: 74px;
@@ -14,7 +14,7 @@
   margin: 5px;
 }
 
-.panel {
+.hide {
   display: none;
 }
 
@@ -27,9 +27,7 @@ body {
 }
 
 form#order-form {
-  color: #f1eeee;
   padding: 3rem;
-  background-color: rgba(126, 90, 40, 0.76);
 }
 
 .page-header {
@@ -39,4 +37,30 @@ form#order-form {
   background-position: center;
   background-size: cover;
   height: 123px;
+}
+
+.text-back-color{
+  background-color: rgba(126, 90, 40, 0.76);
+  color: #f1eeee;
+}
+
+.panel {
+  width: 46%;
+  padding-bottom: 5px;
+}
+
+.container .panel {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.btn-group {
+  margin-left: 105px;
+  margin-bottom: 7px;
+}
+
+.return1 {
+  margin-right: 15px;
 }
