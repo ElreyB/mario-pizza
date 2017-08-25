@@ -1,0 +1,13 @@
+.name {
+  width: 40%;
+}
+
+.size {
+  width: 40%;
+  display: inline;
+}
+
+.toppings input{
+  margin: 5px;
+
+}
