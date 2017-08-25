@@ -51,8 +51,15 @@ $(document).ready(function(){
 
     var newCostumer = new Costumer(nameInput);
     var newPizza = new Pizza(sizeInput, toppingsInput);
-
     newCostumer.order.push(newPizza);
+
+    $("span#costumer").text(newCostumer.name);
+    $("span#orderSize").text(newCostumer.order[0].size);
+    newCostumer.order[0].toppings.forEach(function(topping){
+      $("ul#orderToppings").append(`<li>${topping}</li>`);
+    });
+    $("span#orderTotal").text(newCostumer.order[0].totalCost());
+
 
 
 
