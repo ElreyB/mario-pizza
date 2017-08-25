@@ -17,7 +17,9 @@ _This page return a receipt based off the options you pick._
 
 ## Setup/Installation Requirements
 
-* _Clone this repository_
+* _Clone this repository_  
+![clone](https://user-images.githubusercontent.com/20192033/29736085-0f5b7ec8-89b3-11e7-9f7c-cc8ccb878802.png)
+
 * _In your terminal type "git clone (repository url)_
 * _Click on the index.html file to open in your updated browser of choice or click here_
 
