@@ -1,12 +1,42 @@
 .name {
   width: 40%;
+  margin-right: 20px;
+  display: inline-block;
 }
 
 .size{
   width: 40%;
-  display: inline;
+  display: inline-block;
+  margin-left: 74px;
 }
 
 .toppings input{
   margin: 5px;
+}
+
+.panel {
+  display: none;
+}
+
+body {
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+form#order-form {
+  color: #f1eeee;
+  padding: 3rem;
+  background-color: rgba(126, 90, 40, 0.76);
+}
+
+.page-header {
+  background-image: url(../img/banner.jpg);
+  opacity: 0.9;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 123px;
 }
